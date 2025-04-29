@@ -1,3 +1,4 @@
+import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.CollectionCondition.itemWithText;
@@ -17,7 +18,3 @@ public class gitTest {
             $("#hero-section-brand-heading").shouldHave(text("The AI-powered developer platform"));
         }
 }
-
-
-        @Test
-
